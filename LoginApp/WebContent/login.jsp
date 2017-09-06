@@ -4,18 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
+<title>Home</title>
 </head>
 <body>
-	<center>
-		<font size="20">
-			<b>O2</b><br><br><br>
-		</font>
-	
-		<form action="/search" method="post">
-			<input type="text" name="qry" placeholder="Searching Beyond Depths" size="23">
-			<input type="submit" name="sbmt" value="Search">
-		</form>	
-	</center>
+Hello
 </body>
 </html>

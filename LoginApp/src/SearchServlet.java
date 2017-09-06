@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class LoginServlet extends HttpServlet {
+public class SearchServlet extends HttpServlet {
 	/**
 	 * 
 	 */
@@ -14,11 +14,6 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		String uname = req.getParameter("uname");
-		String upass = req.getParameter("upass");
-		
-		if (uname == "admin" && upass == "admin123") {
-			resp.sendRedirect("login.jsp");
-		}
+		resp.sendRedirect("login.jsp");
 	}
 }
